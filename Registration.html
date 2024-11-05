@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Registration page</h1>
+    </header>
+    <main>
+        <form id="registration-form">
+            <section>
+                <h2>Personal Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </section>
+            <section>
+                <h2>Ticket Type</h2>
+                <label for="ticket-type">Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type" required>
+                    <option value="">Select an option</option>
+                    <option value="General">Genral</option>
+                    <option value="Vip">VIP</option>  
+                </select>             
+                                
+            </section>           
+            <button type="submit">Submit Request</button> <button type="submit"><a href="midsem.html"></a>Back to home</button>
+        </form>
+    </main>
+</body>
+</html>
